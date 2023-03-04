@@ -1,10 +1,20 @@
 <h1>Sign Up</h1>
+<!-- type means which type  u want ,like text email,password,submit,etc,,,, name means it specifies a  name for an html element and it acts like an reference for the type we have created -->
+<!-- placeholder means what ever u write here that will be appeared in that form box -->
+<!-- required field will tell u that it is mandatory -->
+<!-- value means it will appear what ever u give here and submit acts like an submit button type -->
+
+<!-- Note :this form  can be created with out an all body and head of the html tags as well -->
+ 
+<!-- method specifies which type of request u want to send like posting or getting since if we submit page we need to  get into another page so we are using a post method here -->
+
+                        <!-- SIGN UP PAGE -->
 
 <form action="/users/create" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <input type="password" name="password" placeholder="Password" required>
     <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-    <input type="submit" value="Sign Up">
+    <input type="submit" value="Sign Up">  
 
 </form>
